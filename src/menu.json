@@ -1,6 +1,7 @@
 {
   "ramen": [
     {
+      "id": 1,
       "name": "Tonkotsu Zen",
       "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 12.5,
@@ -8,6 +9,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 2,
       "name": "Tonkotsu Spicy",
       "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 13.0,
@@ -15,6 +17,7 @@
       "spiceLevel": 1
     },
     {
+      "id": 3,
       "name": "Tonkotsu Spicy Shrimp",
       "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 14.5,
@@ -22,6 +25,7 @@
       "spiceLevel": 1
     },
     {
+      "id": 4,
       "name": "Tonkotsu Kimchi",
       "description": "Pork chashu (2pc), fried kimchi, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 14.0,
@@ -29,6 +33,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 5,
       "name": "Tonkotsu Kamikaze",
       "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 14.0,
@@ -36,6 +41,7 @@
       "spiceLevel": 2
     },
     {
+      "id": 6,
       "name": "Tonkotsu Spicy Seafood",
       "description": "Cooked shrimp, scallop, miso butter ball, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 15.0,
@@ -43,6 +49,7 @@
       "spiceLevel": 1
     },
     {
+      "id": 7,
       "name": "Tonkotsu Black",
       "description": "Pork chashu (2pc), corn, black garlic oil, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 14.5,
@@ -50,6 +57,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 8,
       "name": "Tonkotsu Chicken",
       "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 13.0,
@@ -57,6 +65,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 9,
       "name": "Tonkotsu King",
       "description": "Pork chashu (3pc), fried pork gyoza, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
       "price": 16.0,
@@ -64,6 +73,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 10,
       "name": "Tonkotsu Kid",
       "description": "Yellow noodle, pork based broth.",
       "price": 11.5,
@@ -71,6 +81,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 11,
       "name": "Shoyu Atomic Bomb Chicken",
       "description": "Fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 14.0,
@@ -78,6 +89,7 @@
       "spiceLevel": 3
     },
     {
+      "id": 12,
       "name": "Shoyu Bulgogi",
       "description": "Soy marinated Korean beef, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 15.0,
@@ -85,6 +97,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 13,
       "name": "Shoyu Chicken",
       "description": "Soy marinated grilled chicken, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 13.5,
@@ -92,6 +105,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 14,
       "name": "Shoyu Spicy Pork",
       "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 13.0,
@@ -99,6 +113,7 @@
       "spiceLevel": 1
     },
     {
+      "id": 15,
       "name": "Shoyu Shrimp",
       "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 15.0,
@@ -106,6 +121,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 16,
       "name": "Shoyu Soft Shell Crab",
       "description": "Fried soft shell crab, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 17.0,
@@ -113,6 +129,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 17,
       "name": "Shoyu Chicken Cheese Katsu",
       "description": "Mozzarella cheese wrapped in fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 16.0,
@@ -120,6 +137,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 18,
       "name": "Shoyu Black",
       "description": "Fried chicken tender, corn, black garlic oil, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
       "price": 14.5,
@@ -127,6 +145,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 19,
       "name": "Shoyu Kid",
       "description": "Yellow noodle in soy based broth.",
       "price": 11.5,
@@ -134,6 +153,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 20,
       "name": "Vegetarian Miso",
       "description": "Fried tofu, red onion, edameme, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, miso broth.",
       "price": 12.0,
@@ -141,6 +161,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 21,
       "name": "Miso Kid",
       "description": "Yellow noodle, miso broth.",
       "price": 11.5,
@@ -148,6 +169,7 @@
       "spiceLevel": 0
     },
     {
+      "id": 22,
       "name": "Vampire Chicken",
       "description": "Fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
       "price": 14.0,
@@ -155,6 +177,7 @@
       "spiceLevel": 4
     },
     {
+      "id": 23,
       "name": "Vampire Fried Shrimp",
       "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
       "price": 15.0,
@@ -162,6 +185,7 @@
       "spiceLevel": 4
     },
     {
+      "id": 24,
       "name": "Vampire Bulgogi",
       "description": "Soy marinated Korean beef, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
       "price": 16.0,
@@ -171,55 +195,148 @@
   ],
   "pokeBowl": [
     {
+      "id": 25,
       "name": "Tuna Poke",
       "description": "Tuna, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 15.0,
       "raw": true
     },
     {
+      "id": 26,
       "name": "Salmon Poke",
       "description": "Salmon, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 15.0,
       "raw": true
     },
     {
+      "id": 27,
       "name": "Bulgogi Poke",
       "description": "Soy marinated Korean beef, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 16.0,
       "raw": false
     },
     {
+      "id": 28,
       "name": "Grilled Chicken Poke",
       "description": "Soy marinated grilled chicken, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 14.0,
       "raw": false
     },
     {
+      "id": 29,
       "name": "Shrimp Poke",
       "description": "Fried shrimp tempura, spicy mayo, sweet chili, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 16.0,
       "raw": false
     },
     {
+      "id": 30,
       "name": "French Kiss Poke",
       "description": "Salmon, cooked shrimp, potato sticks, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 16.0,
       "raw": true
     },
     {
+      "id": 31,
       "name": "Chicken Katsu Poke",
       "description": "Fried chicken tender, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
       "price": 14.0,
       "raw": false
     },
     {
+      "id": 32,
       "name": "Vegetarian Poke",
       "description": "Fried tofu, red onion, spinach, earwood mushroom, pickle, half seasoned egg.",
       "price": 13.0,
       "raw": false
     }
   ],
-  "burrito": [],
+  "burrito": [
+    {
+      "id": 33,
+      "name": "Zen Burrito",
+      "description": "No rice, white soy crepe wrap, tuna, cooked shrimp, salmon, edamame, crab salad, red onion, avocado, cucumber, spicy mayo sauce.",
+      "price": 13.5,
+      "raw": true
+    },
+    {
+      "id": 34,
+      "name": "Tuna Love Burrito",
+      "description": "Sushi rice, seaweed wrap, tuna, lettuce, cucumber, seaweed salad, crab salad, edamame, avocado, yellow pickled radish.",
+      "price": 13.0,
+      "raw": true
+    },
+    {
+      "id": 35,
+      "name": "Soft Shell Crab Burrito",
+      "description": "Fried soft shell crab, sushi rice, seaweed wrap, cucumber, red onion, crab salad, lettuce, crunch, wasabi sauce, eel sauce, siracha sauce.",
+      "price": 17.0,
+      "raw": false
+    },
+    {
+      "id": 36,
+      "name": "OMG Burrito",
+      "description": "Sushi rice, seaweed wrap, cooked shrimp, scallop, lettuce, tuna, cream cheese, avocado, cucumber, spicy mayo sauce.",
+      "price": 14.0,
+      "raw": true
+    },
+    {
+      "id": 37,
+      "name": "French Kiss Burrito",
+      "description": "Sushi rice, orange soy crepe wrap, salmon, cooked shrimp, crab salad, avocado, lettuce, potato sticks, kimchi sauce, spicy mayo sauce.",
+      "price": 14.0,
+      "raw": true
+    },
+    {
+      "id": 38,
+      "name": "Dancing Burrito",
+      "description": "Sushi rice, seaweed wrap, tuna, fried shrimp tempura, salmon, cream cheese, lettuce, cucumber, avocado, edamame, wasabi sauce, eel sauce.",
+      "price": 15.0,
+      "raw": true
+    },
+    {
+      "id": 39,
+      "name": "Pop Rock Shrimp Burrito",
+      "description": "Sushi rice, seaweed wrap, fried shrimp tempura, lettuce, crab salad, red onion, cucumber, cream cheese, crunch, spicy mayo sauce, sweet chili sauce.",
+      "price": 14.0,
+      "raw": false
+    },
+    {
+      "id": 40,
+      "name": "Firecracker Burrito",
+      "description": "Sushi rice, seaweed wrap, tuna, cream cheese, avocado, crab salad, crunch, siracha sauce, spicy mayo sauce.",
+      "price": 14.0,
+      "raw": true
+    },
+    {
+      "id": 41,
+      "name": "FFF Burrito",
+      "description": "Flash fried, sushi rice, seaweed wrap, tuna, cream cheese, avocado, crab salad, crunch, siracha sauce, spicy mayo sauce.",
+      "price": 16.0,
+      "raw": true
+    },
+    {
+      "id": 42,
+      "name": "Chicken Burrito",
+      "description": "Sushi rice, seaweed wrap, fried chicken tender, lettuce, potato sticks, spicy mayo sauce, eel sauce.",
+      "price": 12.0,
+      "raw": false
+    },
+    {
+      "id": 43,
+      "name": "Salmon Crunch Burrito",
+      "description": "Sushi rice, seaweed wrap, fried salmon, cucumber, red onion, crab salad, lettuce, crunch, siracha sauce, wasabi sauce, eel sauce.",
+      "price": 12.0,
+      "raw": false
+    },
+    {
+      "id": 44,
+      "name": "Vegetarian Burrito",
+      "description": "Sushi rice, seaweed wrap, yellow pickled radish, lettuce, avocado, earwood mushroom, pickled red ginger, cucumber, edamame.",
+      "price": 11.0,
+      "raw": false
+    }
+  ],
   "appetizer": [],
   "dessert": [],
   "beverage": []
