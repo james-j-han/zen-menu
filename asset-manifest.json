@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zen-menu/static/css/main.2797ca53.css",
+    "main.js": "/zen-menu/static/js/main.e0a1fb08.js",
+    "static/media/Zen.png": "/zen-menu/static/media/Zen.0c982840a7e8ae2e3158.png",
+    "static/media/spice.png": "/zen-menu/static/media/spice.af6ecbc253c8afd809d8.png",
+    "index.html": "/zen-menu/index.html",
+    "main.2797ca53.css.map": "/zen-menu/static/css/main.2797ca53.css.map",
+    "main.e0a1fb08.js.map": "/zen-menu/static/js/main.e0a1fb08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2797ca53.css",
+    "static/js/main.e0a1fb08.js"
+  ]
+}
