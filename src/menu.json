@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Tonkotsu Zen",
-      "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
+      "ingredients": ["Pork Chashu (2pc)", "Yellow Noodle", "Bamboo Shoot", "Earwood Mushroom", "Spinach", "Red Ginger Paste", "Half Seasoned Egg", "Pork Based Broth"],
       "price": 12.5,
       "raw": false,
       "spiceLevel": 0
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Tonkotsu Spicy",
-      "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
+      "ingredients": ["Pork Chashu (2pc)", "Yellow Noodle", "Bamboo Shoot", "Earwood Mushroom", "Spinach", "Red Ginger Paste", "Half Seasoned Egg", "Pork Based Broth"],
       "price": 13.0,
       "raw": false,
       "spiceLevel": 1
@@ -337,7 +337,25 @@
       "raw": false
     }
   ],
-  "appetizer": [],
+  "appetizer": [
+    {
+      "id": 45,
+      "name": "Seaweed Salad",
+      "ingredients": [],
+      "description": "",
+      "price": 5,
+      "raw": false
+    },
+    {
+      "id": 46,
+      "name": "Edamame",
+      "ingredients": [],
+      "description": "",
+      "price": 5,
+      "raw": false
+    }
+  ],
   "dessert": [],
-  "beverage": []
+  "beverage": [],
+  "alcohol": []
 }
