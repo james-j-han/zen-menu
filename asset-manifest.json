@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/zen-menu/static/css/main.2797ca53.css",
-    "main.js": "/zen-menu/static/js/main.e0a1fb08.js",
-    "static/media/Zen.png": "/zen-menu/static/media/Zen.0c982840a7e8ae2e3158.png",
+    "main.css": "/zen-menu/static/css/main.fc11b178.css",
+    "main.js": "/zen-menu/static/js/main.4ab4dd4f.js",
+    "static/media/poke.png": "/zen-menu/static/media/poke.38a8111d7d01ad978009.png",
+    "static/media/zen.png": "/zen-menu/static/media/zen.0c982840a7e8ae2e3158.png",
     "static/media/spice.png": "/zen-menu/static/media/spice.af6ecbc253c8afd809d8.png",
+    "static/media/ramen.webp": "/zen-menu/static/media/ramen.599395998aa06ed9a99b.webp",
+    "static/media/sushi.webp": "/zen-menu/static/media/sushi.11ed2b14f3f8cc607204.webp",
+    "static/media/appetizer.webp": "/zen-menu/static/media/appetizer.38cce534dfb786008194.webp",
     "index.html": "/zen-menu/index.html",
-    "main.2797ca53.css.map": "/zen-menu/static/css/main.2797ca53.css.map",
-    "main.e0a1fb08.js.map": "/zen-menu/static/js/main.e0a1fb08.js.map"
+    "main.fc11b178.css.map": "/zen-menu/static/css/main.fc11b178.css.map",
+    "main.4ab4dd4f.js.map": "/zen-menu/static/js/main.4ab4dd4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2797ca53.css",
-    "static/js/main.e0a1fb08.js"
+    "static/css/main.fc11b178.css",
+    "static/js/main.4ab4dd4f.js"
   ]
 }
