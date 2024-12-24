@@ -8,13 +8,17 @@ import "./index.css";
 // Images
 import logo from "./images/zen.png";
 import spiceImage from "./images/spice.png";
+import combo from "./images/combo.png";
 import ramen from "./images/ramen.webp";
 import shoyu from "./images/shoyu.png";
+import miso from "./images/miso.png";
+import vampire from "./images/vampire.png";
 import sushi from "./images/sushi.webp";
 import poke from "./images/poke.png";
 import appetizer from "./images/appetizer.webp";
 import dessert from "./images/dessert.webp";
 import beverage from "./images/beverage.webp";
+import lunar from "./images/lunar.jpg";
 import beer from "./images/beer.webp";
 import sake from "./images/sake.webp";
 
@@ -46,8 +50,8 @@ function Operation() {
         <span>
           <strong>Hours of Operation</strong>
         </span>
-        <span>Monday: Closed</span>
-        <span>Tuesday: Closed</span>
+        <span className="closed">Monday: Closed</span>
+        <span className="closed">Tuesday: Closed</span>
         <span>Wednesday: 11:30am - 8:30pm</span>
         <span>Thursday: 11:30am - 8:30pm</span>
         <span>Friday: 11:30am - 9:00pm</span>
@@ -124,11 +128,23 @@ function NavBar() {
           <a className="nav-item" href="#appetizer-section">
             APPETIZER
           </a>
+          <a className="nav-item" href="#combo-section">
+            COMBO
+          </a>
           <a className="nav-item" href="#tonkotsu-ramen-section">
             TONKOTSU RAMEN
           </a>
           <a className="nav-item" href="#shoyu-ramen-section">
             SHOYU RAMEN
+          </a>
+          <a className="nav-item" href="#miso-ramen-section">
+            MISO RAMEN
+          </a>
+          <a className="nav-item" href="#vampire-ramen-section">
+            VAMPIRE RAMEN
+          </a>
+          <a className="nav-item" href="#kid-ramen-section">
+            KID RAMEN
           </a>
           <a className="nav-item" href="#poke-section">
             POKE BOWL
@@ -141,6 +157,9 @@ function NavBar() {
           </a>
           <a className="nav-item" href="#beverage-section">
             BEVERAGE
+          </a>
+          <a className="nav-item" href="#seltzer-section">
+            HARD SELTZER
           </a>
           <a className="nav-item" href="#beer-section">
             BEER
@@ -163,6 +182,12 @@ function NavBar() {
           menuItem={Menu["appetizer"]}
         />
         <Section
+          navId="combo-section"
+          heading="COMBO"
+          image={combo}
+          menuItem={Menu["combo"]}
+        />
+        <Section
           navId="tonkotsu-ramen-section"
           heading="TONKOTSU RAMEN"
           image={ramen}
@@ -173,6 +198,24 @@ function NavBar() {
           heading="SHOYU RAMEN"
           image={shoyu}
           menuItem={Menu["ramen"]["shoyu"]}
+        />
+        <Section
+          navId="miso-ramen-section"
+          heading="MISO RAMEN"
+          image={miso}
+          menuItem={Menu["ramen"]["miso"]}
+        />
+        <Section
+          navId="vampire-ramen-section"
+          heading="VAMPIRE RAMEN"
+          image={vampire}
+          menuItem={Menu["ramen"]["vampire"]}
+        />
+        <Section
+          navId="kid-ramen-section"
+          heading="KID RAMEN"
+          image={shoyu}
+          menuItem={Menu["ramen"]["kid"]}
         />
         <Section
           navId="poke-section"
@@ -199,6 +242,12 @@ function NavBar() {
           menuItem={Menu["beverage"]}
         />
         <Section
+          navId="seltzer-section"
+          heading="HARD SELTZER"
+          image={lunar}
+          menuItem={Menu["alcohol"]["seltzer"]}
+        />
+        <Section
           navId="beer-section"
           heading="BEER"
           image={beer}
@@ -219,7 +268,6 @@ function App() {
   return (
     <div>
       <Header />
-      {}
       <Operation />
       <NavBar />
       <Footer />

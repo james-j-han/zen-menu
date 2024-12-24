@@ -179,7 +179,27 @@
     "kid": [
       {
         "id": 1,
-        "name": "KID RAMEN"
+        "name": "TONKOTSU KID RAMEN",
+        "ingredients": ["YELLOW NOODLE", "RICH PORK BONE BROTH"],
+        "price": 10.5,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 2,
+        "name": "SHOYU KID RAMEN",
+        "ingredients": ["YELLOW NOODLE", "LIGHT SOY BROTH"],
+        "price": 10.5,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 3,
+        "name": "MISO KID RAMEN",
+        "ingredients": ["YELLOW NOODLE", "CREAMY MISO BROTH"],
+        "price": 10.5,
+        "raw": false,
+        "spiceLevel": 0
       }
     ],
     "topping": [
@@ -271,7 +291,7 @@
     },
     {
       "id": 4,
-      "name": "OMG Burrito",
+      "name": "OMG BURRITO",
       "ingredients": ["SEAWEED WRAP", "COOKED SHRIMP", "SCALLOP", "TUNA", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "CRAB SALAD", "SPICY MAYO SAUCE"],
       "price": 14.0,
       "raw": true
@@ -335,20 +355,127 @@
   ],
   "appetizer": [
     {
-      "id": 45,
-      "name": "Seaweed Salad",
+      "id": 1,
+      "name": "SEAWEED SALAD",
       "ingredients": [],
       "description": "",
-      "price": 5,
-      "raw": false
+      "price": 5
     },
     {
-      "id": 46,
-      "name": "Edamame",
+      "id": 2,
+      "name": "EDAMAME",
       "ingredients": [],
       "description": "",
-      "price": 5,
-      "raw": false
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "EDAMAME",
+      "ingredients": ["SPICY GARLIC"],
+      "description": "",
+      "price": 6.5
+    },
+    {
+      "id": 4,
+      "name": "EDAMAME",
+      "ingredients": ["LEMON PEPPER"],
+      "description": "",
+      "price": 6.5
+    },
+    {
+      "id": 5,
+      "name": "FRIED PORK GYOZA",
+      "ingredients": ["(6PC)", "SPICY MAYO SAUCE"],
+      "description": "",
+      "price": 6.5
+    },
+    {
+      "id": 6,
+      "name": "CHICKEN KARAAGE",
+      "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE"],
+      "description": "",
+      "price": 7.5
+    },
+    {
+      "id": 7,
+      "name": "CHICKEN KARAAGE PARMESAN",
+      "ingredients": ["BITE SIZED FRIED CHICKEN", "SPICY MAYO SAUCE", "PARMESAN CHEESE"],
+      "description": "",
+      "price": 8.5
+    },
+    {
+      "id": 8,
+      "name": "POP ROCK SHRIMP",
+      "ingredients": ["FRIED SHRIMP TEMPURA", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
+      "description": "",
+      "price": 9.5
+    },
+    {
+      "id": 9,
+      "name": "CHICKEN KATSU SANTOS",
+      "ingredients": ["FRIED CHICKEN TENDER", "WHEAT BREAD", "SPICY MAYO SAUCE", "KARAAGE SAUCE"],
+      "description": "",
+      "price": 7.5
+    },
+    {
+      "id": 10,
+      "name": "PORK BUN",
+      "ingredients": ["STEAMED BAO BUN (2PC)", "PORK CHASHU (2PC)", "HOISIN SAUCE", "LETTUCE"],
+      "description": "",
+      "price": 7
+    },
+    {
+      "id": 11,
+      "name": "CHICKEN BUN",
+      "ingredients": ["STEAMED BAO BUN (2PC)", "FRIED CHICKEN TENDER", "KARAAGE SAUCE", "LETTUCE"],
+      "description": "",
+      "price": 7
+    },
+    {
+      "id": 12,
+      "name": "VEGETABLE SPRING ROLL",
+      "ingredients": ["(5PC)", "SWEET CHILI SAUCE"],
+      "description": "",
+      "price": 6.5
+    },
+    {
+      "id": 13,
+      "name": "ROCK & ROLL",
+      "ingredients": [],
+      "description": "",
+      "price": 10,
+      "raw": true
+    },
+    {
+      "id": 14,
+      "name": "985 ROLL",
+      "ingredients": [],
+      "description": "",
+      "price": 9.85,
+      "raw": true
+    },
+    {
+      "id": 15,
+      "name": "CHICKEN NACHO",
+      "ingredients": [],
+      "description": "",
+      "price": 9.5
+    },
+    {
+      "id": 16,
+      "name": "TUNA NACHO",
+      "ingredients": [],
+      "description": "",
+      "price": 9.5,
+      "raw": true
+    },
+    {
+      "id": 17,
+      "name": "SALMON NACHO",
+      "ingredients": [],
+      "description": "",
+      "price": 9.5,
+      "raw": true
     }
   ],
   "dessert": [
@@ -422,6 +549,14 @@
     }
   ],
   "alcohol": {
+    "seltzer": [
+      {
+        "id": 1,
+        "name": "LUNAR HARD SELTZER",
+        "ingredients": ["KOREAN PLUM", "LYCHEE", "YUZU", "PASSION FRUIT"],
+        "price": 5
+      }
+    ],
     "beer": [
       {
         "id": 1,
@@ -530,23 +665,33 @@
   },
   "combo": [
     {
-      "name": "VEGETABLE SPRING ROLL (5PC)",
+      "id": 1,
+      "name": "VEGETABLE SPRING ROLL",
+      "ingredients": ["(5PC)", "SWEET CHILI SAUCE"],
       "price": 5.5
     },
     {
-      "name": "FRIED PORK GYOZA (5PC)",
+      "id": 2,
+      "name": "FRIED PORK GYOZA",
+      "ingredients": ["(5PC)", "SPICY MAYO SAUCE"],
       "price": 5.5
     },
     {
+      "id": 3,
       "name": "CHICKEN KARAAGE",
+      "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE"],
       "price": 6.5
     },
     {
+      "id": 4,
       "name": "CHICKEN KARAAGE PARMESAN",
+      "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE", "PARMESAN CHEESE"],
       "price": 7.5
     },
     {
+      "id": 5,
       "name": "POP ROCK SHRIMP",
+      "ingredients": ["FRIED SHRIMP TEMPURA", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
       "price": 7
     }
   ]
