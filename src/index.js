@@ -7,6 +7,7 @@ import "./index.css";
 
 // Images
 import logo from "./images/zen.png";
+import cloud from "./images/cloud.png";
 import spiceImage from "./images/spice.png";
 import combo from "./images/combo.png";
 import ramen from "./images/ramen.webp";
@@ -25,7 +26,12 @@ import sake from "./images/sake.webp";
 // console.log(Menu);
 
 function Logo() {
-  return <img className="logo" src={logo} alt="Zen Logo" />;
+  return (
+    <div className="image-container">
+      <img className="cloud" src={cloud} alt="cloud" />
+      <img className="logo" src={logo} alt="Zen Logo" />
+    </div>
+  )
 }
 
 function Header() {
@@ -99,6 +105,7 @@ function Section(props) {
     for (let i = 0; i < level; i++) {
       spiceImageArray.push(
         <img
+          key={`spice-${i}`}
           className="spice-image"
           src={spiceImage}
           alt={`Level ${level} Spice`}
@@ -130,8 +137,8 @@ function Section(props) {
               </div>
               <div>
                 {item.ingredients
-                  ? item.ingredients.map((ingredient) => {
-                      return <span className="ingredient">{ingredient}</span>;
+                  ? item.ingredients.map((ingredient, index) => {
+                      return <span key={`ingredient-${index}`} className="ingredient">{ingredient}</span>;
                     })
                   : null}
               </div>
