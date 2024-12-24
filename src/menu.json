@@ -1,338 +1,334 @@
 {
-  "ramen": [
+  "ramen": {
+    "tonkotsu": [
+      {
+        "id": 1,
+        "name": "ZEN",
+        "ingredients": ["PORK CHASHU (2PC)", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH"],
+        "price": 12.5,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 2,
+        "name": "SPICY ZEN",
+        "ingredients": ["PORK CHASHU (2PC)", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH", "ZEN ORIGINAL SPICE"],
+        "price": 13,
+        "raw": false,
+        "spiceLevel": 1
+      },
+      {
+        "id": 3,
+        "name": "SPICY SHRIMP",
+        "ingredients": ["FRIED SHRIMP TEMPURA", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH", "ZEN ORIGINAL SPICE"],
+        "price": 14.5,
+        "raw": false,
+        "spiceLevel": 1
+      },
+      {
+        "id": 4,
+        "name": "KIMCHI",
+        "ingredients": ["PORK CHASHU (2PC)", "FRIED KIMCHI", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH"],
+        "price": 14,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 5,
+        "name": "KAMIKAZE ZEN",
+        "ingredients": ["PORK CHASHU (2PC)", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH", "ZEN KAMIKAZE SPICE"],
+        "price": 14,
+        "raw": false,
+        "spiceLevel": 2
+      },
+      {
+        "id": 6,
+        "name": "SPICY SEAFOOD",
+        "ingredients": ["COOKED SHRIMP", "SCALLOP", "MISO BUTTER BALL", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH", "ZEN ORIGINAL SPICE"],
+        "price": 15,
+        "raw": false,
+        "spiceLevel": 1
+      },
+      {
+        "id": 7,
+        "name": "BLACK",
+        "ingredients": ["PORK CHASHU (2PC)", "CORN", "BLACK GARLIC OIL", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH"],
+        "price": 14.5,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 8,
+        "name": "CHICKEN KATSU",
+        "ingredients": ["FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH"],
+        "price": 13,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 9,
+        "name": "KING",
+        "ingredients": ["PORK CHASHU (3PC)", "FRIED PORK GYOZA (2PC)", "EXTRA YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "RICH PORK BONE BROTH"],
+        "price": 16,
+        "raw": false,
+        "spiceLevel": 0
+      }
+    ],
+    "shoyu": [
+      {
+        "id": 1,
+        "name": "ATOMIC BOMB CHICKEN",
+        "ingredients": ["FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH", "ZEN ATOMIC SPICE"],
+        "price": 14,
+        "raw": false,
+        "spiceLevel": 3
+      },
+      {
+        "id": 2,
+        "name": "BULGOGI",
+        "ingredients": ["SOY MARINATED KOREAN BEEF", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 15,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 3,
+        "name": "GRILLED CHICKEN",
+        "ingredients": ["SOY MARINATED GRILLED CHICKEN", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 13.5,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 4,
+        "name": "SPICY PORK",
+        "ingredients": ["PORK CHASHU (2PC)", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH", "ZEN ORIGINAL SPICE"],
+        "price": 13,
+        "raw": false,
+        "spiceLevel": 1
+      },
+      {
+        "id": 5,
+        "name": "SHRIMP",
+        "ingredients": ["FRIED SHRIMP TEMPURA", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 15,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 6,
+        "name": "SOFT SHELL CRAB",
+        "ingredients": ["FRIED SOFT SHELL CRAB", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 16,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 7,
+        "name": "CHICKEN CHEESE",
+        "ingredients": ["MOZZARELLA CHEESE WRAPPED IN FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 16,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 8,
+        "name": "BLACK",
+        "ingredients": ["PORK CHASHU (2PC)", "CORN", "BLACK GARLIC OIL", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "price": 14.5,
+        "raw": false,
+        "spiceLevel": 0
+      }
+    ],
+    "miso": [
+      {
+        "id": 1,
+        "name": "VEGETARIAN",
+        "ingredients": ["FRIED TOFU (1PC)", "RED ONION", "EDAMAME", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "CREAMY MISO BROTH"],
+        "price": 12,
+        "raw": false,
+        "spiceLevel": 0
+      }
+    ],
+    "vampire": [
+      {
+        "id": 1,
+        "name": "CHICKEN KATSU",
+        "ingredients": ["FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
+        "price": 14,
+        "raw": false,
+        "spiceLevel": 4
+      },
+      {
+        "id": 2,
+        "name": "SHRIMP",
+        "ingredients": ["FRIED SHRIMP TEMPURA", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
+        "price": 15,
+        "raw": false,
+        "spiceLevel": 4
+      },
+      {
+        "id": 3,
+        "name": "BULGOGI",
+        "ingredients": ["SOY MARINATED KOREAN BEEF", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
+        "price": 14,
+        "raw": false,
+        "spiceLevel": 4
+      }
+    ],
+    "kid": [
+      {
+        "id": 1,
+        "name": "KID RAMEN"
+      }
+    ],
+    "topping": [
+      {
+        "name": "EARWOOD MUSHROOM",
+        "price": 1.5
+      }
+    ]
+  },
+  "pokeBowl": [
     {
       "id": 1,
-      "name": "Tonkotsu Zen",
-      "ingredients": ["Pork Chashu (2pc)", "Yellow Noodle", "Bamboo Shoot", "Earwood Mushroom", "Spinach", "Red Ginger Paste", "Half Seasoned Egg", "Pork Based Broth"],
-      "price": 12.5,
-      "raw": false,
-      "spiceLevel": 0
+      "name": "TUNA POKE",
+      "ingredients": ["TUNA", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "price": 15.0,
+      "raw": true
     },
     {
       "id": 2,
-      "name": "Tonkotsu Spicy",
-      "ingredients": ["Pork Chashu (2pc)", "Yellow Noodle", "Bamboo Shoot", "Earwood Mushroom", "Spinach", "Red Ginger Paste", "Half Seasoned Egg", "Pork Based Broth"],
-      "price": 13.0,
-      "raw": false,
-      "spiceLevel": 1
+      "name": "SALMON POKE",
+      "ingredients": ["SALMON", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "price": 15.0,
+      "raw": true
     },
     {
       "id": 3,
-      "name": "Tonkotsu Spicy Shrimp",
-      "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 14.5,
-      "raw": false,
-      "spiceLevel": 1
+      "name": "BULGOGI POKE",
+      "ingredients": ["SOY MARINATED KOREAN BEEF", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "price": 16.0,
+      "raw": false
     },
     {
       "id": 4,
-      "name": "Tonkotsu Kimchi",
-      "description": "Pork chashu (2pc), fried kimchi, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
+      "name": "GRILLED CHICKEN POKE",
+      "ingredients": ["SOR MARINATED GRILLED CHICKEN", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
       "price": 14.0,
-      "raw": false,
-      "spiceLevel": 0
+      "raw": false
     },
     {
       "id": 5,
-      "name": "Tonkotsu Kamikaze",
-      "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 14.0,
-      "raw": false,
-      "spiceLevel": 2
+      "name": "SHRIMP POKE",
+      "ingredients": ["FRIED SHRIMP TEMPURA", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
+      "price": 16.0,
+      "raw": false
     },
     {
       "id": 6,
-      "name": "Tonkotsu Spicy Seafood",
-      "description": "Cooked shrimp, scallop, miso butter ball, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 15.0,
-      "raw": false,
-      "spiceLevel": 1
+      "name": "FRENCH KISS POKE",
+      "ingredients": ["SALMON", "COOKED SHRIMP", "POTATO STICKS", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "price": 16.0,
+      "raw": true
     },
     {
       "id": 7,
-      "name": "Tonkotsu Black",
-      "description": "Pork chashu (2pc), corn, black garlic oil, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 14.5,
-      "raw": false,
-      "spiceLevel": 0
+      "name": "CHICKEN KATSU POKE",
+      "ingredients": ["FRIED CHICKEN TENDER", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "price": 14.0,
+      "raw": false
     },
     {
       "id": 8,
-      "name": "Tonkotsu Chicken",
-      "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 13.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 9,
-      "name": "Tonkotsu King",
-      "description": "Pork chashu (3pc), fried pork gyoza, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, pork based broth.",
-      "price": 16.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 10,
-      "name": "Tonkotsu Kid",
-      "description": "Yellow noodle, pork based broth.",
-      "price": 11.5,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 11,
-      "name": "Shoyu Atomic Bomb Chicken",
-      "description": "Fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 14.0,
-      "raw": false,
-      "spiceLevel": 3
-    },
-    {
-      "id": 12,
-      "name": "Shoyu Bulgogi",
-      "description": "Soy marinated Korean beef, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 15.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 13,
-      "name": "Shoyu Chicken",
-      "description": "Soy marinated grilled chicken, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 13.5,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 14,
-      "name": "Shoyu Spicy Pork",
-      "description": "Pork chashu (2pc), yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 13.0,
-      "raw": false,
-      "spiceLevel": 1
-    },
-    {
-      "id": 15,
-      "name": "Shoyu Shrimp",
-      "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 15.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 16,
-      "name": "Shoyu Soft Shell Crab",
-      "description": "Fried soft shell crab, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 17.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 17,
-      "name": "Shoyu Chicken Cheese Katsu",
-      "description": "Mozzarella cheese wrapped in fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 16.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 18,
-      "name": "Shoyu Black",
-      "description": "Fried chicken tender, corn, black garlic oil, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, soy based broth.",
-      "price": 14.5,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 19,
-      "name": "Shoyu Kid",
-      "description": "Yellow noodle in soy based broth.",
-      "price": 11.5,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 20,
-      "name": "Vegetarian Miso",
-      "description": "Fried tofu, red onion, edameme, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, miso broth.",
-      "price": 12.0,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 21,
-      "name": "Miso Kid",
-      "description": "Yellow noodle, miso broth.",
-      "price": 11.5,
-      "raw": false,
-      "spiceLevel": 0
-    },
-    {
-      "id": 22,
-      "name": "Vampire Chicken",
-      "description": "Fried chicken tender, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
-      "price": 14.0,
-      "raw": false,
-      "spiceLevel": 4
-    },
-    {
-      "id": 23,
-      "name": "Vampire Fried Shrimp",
-      "description": "Fried shrimp tempura, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
-      "price": 15.0,
-      "raw": false,
-      "spiceLevel": 4
-    },
-    {
-      "id": 24,
-      "name": "Vampire Bulgogi",
-      "description": "Soy marinated Korean beef, yellow noodle, bamboo shoot, earwood mushroom, spinach, red ginger paste, half seasoned egg, vampire sauce.",
-      "price": 16.0,
-      "raw": false,
-      "spiceLevel": 4
-    }
-  ],
-  "pokeBowl": [
-    {
-      "id": 25,
-      "name": "Tuna Poke",
-      "description": "Tuna, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 15.0,
-      "raw": true
-    },
-    {
-      "id": 26,
-      "name": "Salmon Poke",
-      "description": "Salmon, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 15.0,
-      "raw": true
-    },
-    {
-      "id": 27,
-      "name": "Bulgogi Poke",
-      "description": "Soy marinated Korean beef, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 16.0,
-      "raw": false
-    },
-    {
-      "id": 28,
-      "name": "Grilled Chicken Poke",
-      "description": "Soy marinated grilled chicken, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 14.0,
-      "raw": false
-    },
-    {
-      "id": 29,
-      "name": "Shrimp Poke",
-      "description": "Fried shrimp tempura, spicy mayo, sweet chili, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 16.0,
-      "raw": false
-    },
-    {
-      "id": 30,
-      "name": "French Kiss Poke",
-      "description": "Salmon, cooked shrimp, potato sticks, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 16.0,
-      "raw": true
-    },
-    {
-      "id": 31,
-      "name": "Chicken Katsu Poke",
-      "description": "Fried chicken tender, sushi rice, crab salad, cucumber, avocado, yellow pickled radish, lettuce, seaweed salad, edamame, pickled red ginger.",
-      "price": 14.0,
-      "raw": false
-    },
-    {
-      "id": 32,
-      "name": "Vegetarian Poke",
-      "description": "Fried tofu, red onion, spinach, earwood mushroom, pickle, half seasoned egg.",
+      "name": "VEGETARIAN POKE",
+      "ingredients": ["FRIED TOFU (1PC)", "RED ONION", "SPINACH", "EARWOOD MUSHROOM", "PICKLE", "HALF SEASONED EGG"],
       "price": 13.0,
       "raw": false
     }
   ],
   "burrito": [
     {
-      "id": 33,
-      "name": "Zen Burrito",
-      "description": "No rice, white soy crepe wrap, tuna, cooked shrimp, salmon, edamame, crab salad, red onion, avocado, cucumber, spicy mayo sauce.",
+      "id": 1,
+      "name": "ZEN BURRITO",
+      "ingredients": ["WHITE SOY CREPE", "TUNA", "COOKED SHRIMP", "SALMON", "EDAMAME", "CRAB SALAD", "RED ONION", "AVOCADO", "CUCUMBER", "SPICY MAYO SAUCE"],
       "price": 13.5,
       "raw": true
     },
     {
-      "id": 34,
-      "name": "Tuna Love Burrito",
-      "description": "Sushi rice, seaweed wrap, tuna, lettuce, cucumber, seaweed salad, crab salad, edamame, avocado, yellow pickled radish.",
+      "id": 2,
+      "name": "TUNA LOVE BURRITO",
+      "ingredients": ["SEAWEED WRAP", "TUNA", "SUSHI RICE", "LETTUCE", "CUCUMBER", "SEAWEED SALAD", "CRAB SALAD", "AVOCADO", "CUCUMBER", "YELLOW PICKLED RADISH"],
       "price": 13.0,
       "raw": true
     },
     {
-      "id": 35,
-      "name": "Soft Shell Crab Burrito",
-      "description": "Fried soft shell crab, sushi rice, seaweed wrap, cucumber, red onion, crab salad, lettuce, crunch, wasabi sauce, eel sauce, siracha sauce.",
+      "id": 3,
+      "name": "SOFT SHELL CRAB BURRITO",
+      "ingredients": ["SEAWEED WRAP", "FRIED SOFT SHELL CRAB", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SIRACHA SAUCE"],
       "price": 17.0,
       "raw": false
     },
     {
-      "id": 36,
+      "id": 4,
       "name": "OMG Burrito",
-      "description": "Sushi rice, seaweed wrap, cooked shrimp, scallop, lettuce, tuna, cream cheese, avocado, cucumber, spicy mayo sauce.",
+      "ingredients": ["SEAWEED WRAP", "COOKED SHRIMP", "SCALLOP", "TUNA", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "CRAB SALAD", "SPICY MAYO SAUCE"],
       "price": 14.0,
       "raw": true
     },
     {
-      "id": 37,
-      "name": "French Kiss Burrito",
-      "description": "Sushi rice, orange soy crepe wrap, salmon, cooked shrimp, crab salad, avocado, lettuce, potato sticks, kimchi sauce, spicy mayo sauce.",
+      "id": 5,
+      "name": "FRENCH KISS BURRITO",
+      "ingredients": ["ORANGE SOY CREPE WRAP", "SALMON", "COOKED SHRIMP", "SUSHI RICE", "LETTUCE", "AVOCADO", "POTATO STICKS", "CRAB SALAD", "SPICY MAYO SAUCE", "KIMCHI SAUCE"],
       "price": 14.0,
       "raw": true
     },
     {
-      "id": 38,
-      "name": "Dancing Burrito",
-      "description": "Sushi rice, seaweed wrap, tuna, fried shrimp tempura, salmon, cream cheese, lettuce, cucumber, avocado, edamame, wasabi sauce, eel sauce.",
+      "id": 6,
+      "name": "DANCING BURRITO",
+      "ingredients": ["SEAWEED WRAP", "TUNA", "FRIED SHRIMP TEMPURA", "SALMON", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "EDAMAME", "CREAMY WASABI SAUCE", "EEL SAUCE"],
       "price": 15.0,
       "raw": true
     },
     {
-      "id": 39,
-      "name": "Pop Rock Shrimp Burrito",
-      "description": "Sushi rice, seaweed wrap, fried shrimp tempura, lettuce, crab salad, red onion, cucumber, cream cheese, crunch, spicy mayo sauce, sweet chili sauce.",
+      "id": 7,
+      "name": "POP ROCK SHRIMP BURRITO",
+      "ingredients": ["SEAWEED WRAP", "FRIED SHRIMP TEMPURA", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
       "price": 14.0,
       "raw": false
     },
     {
-      "id": 40,
-      "name": "Firecracker Burrito",
-      "description": "Sushi rice, seaweed wrap, tuna, cream cheese, avocado, crab salad, crunch, siracha sauce, spicy mayo sauce.",
+      "id": 8,
+      "name": "FIRECRACKER BURRITO",
+      "ingredients": ["SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SIRACHA SAUCE"],
       "price": 14.0,
       "raw": true
     },
     {
-      "id": 41,
-      "name": "FFF Burrito",
-      "description": "Flash fried, sushi rice, seaweed wrap, tuna, cream cheese, avocado, crab salad, crunch, siracha sauce, spicy mayo sauce.",
+      "id": 9,
+      "name": "FFF BURRITO",
+      "ingredients": ["FLASH FRIED", "SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SIRACHA SAUCE"],
       "price": 16.0,
       "raw": true
     },
     {
-      "id": 42,
-      "name": "Chicken Burrito",
-      "description": "Sushi rice, seaweed wrap, fried chicken tender, lettuce, potato sticks, spicy mayo sauce, eel sauce.",
+      "id": 10,
+      "name": "CHICKEN BURRITO",
+      "ingredients": ["SEAWEED WRAP", "FRIED CHICKEN TENDER", "SUSHI RICE", "LETTUCE", "POTATO STICKS", "SPICY MAYO SAUCE", "EEL SAUCE"],
       "price": 12.0,
       "raw": false
     },
     {
-      "id": 43,
-      "name": "Salmon Crunch Burrito",
-      "description": "Sushi rice, seaweed wrap, fried salmon, cucumber, red onion, crab salad, lettuce, crunch, siracha sauce, wasabi sauce, eel sauce.",
+      "id": 11,
+      "name": "SALMON CRUNCH BURRITO",
+      "ingredients": ["SEAWEED WRAP", "FRIED SALMON", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SIRACHA SAUCE"],
       "price": 12.0,
       "raw": false
     },
     {
-      "id": 44,
-      "name": "Vegetarian Burrito",
-      "description": "Sushi rice, seaweed wrap, yellow pickled radish, lettuce, avocado, earwood mushroom, pickled red ginger, cucumber, edamame.",
+      "id": 12,
+      "name": "VEGETARIAN BURRITO",
+      "ingredients": ["SEAWEED WRAP", "SUSHI RICE", "YELLOW PICKLED RADISH", "LETTUCE", "AVOCADO","EARWOOD MUSHROOM", "PICKLED RED GINGER", "CUCUMBER", "EDAMAME"],
       "price": 11.0,
       "raw": false
     }
@@ -355,7 +351,203 @@
       "raw": false
     }
   ],
-  "dessert": [],
-  "beverage": [],
-  "alcohol": []
+  "dessert": [
+    {
+      "id": 1,
+      "name": "DEEP FRIED OREO",
+      "ingredients": ["DEEP FRIED OREO (3PC)", "VANILLA ICE CREAM", "CHOCOLATE DRIZZLE", "WHIPPED CREAM", "MARASCHINO CHERRY"],
+      "price": 7
+    },
+    {
+      "id": 2,
+      "name": "DEEP FRIED CHEESECAKE",
+      "ingredients": ["DEEP FRIED CHEESECAKE", "VANILLA ICE CREAM", "CHOCOLATE DRIZZLE", "WHIPPED CREAM", "MARASCHINO CHERRY", "CINNAMON SPRINKLE"],
+      "price": 9
+    }
+  ],
+  "beverage": [
+    {
+      "id": 1,
+      "name": "SOFT DRINK",
+      "ingredients": ["COKE", "DIET COKE", "COKE ZERO", "SPRITE", "LEMONADE", "DR. PEPPER", "SWEET TEA", "UNSWEET TEA"],
+      "price": 2.95
+    },
+    {
+      "id": 2,
+      "name": "HOT GREEN TEA",
+      "ingredients": [],
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "name": "RAMUNE JAPANESE SODA",
+      "ingredients": ["ORIGINAL", "BLUE HAWAII", "STRAWBERRY", "MELON", "ORANGE"],
+      "price": 3.5
+    },
+    {
+      "id": 4,
+      "name": "YOGAVERA",
+      "ingredients": ["MANGO", "COCONUT", "PEACH", "MELON", "WATERMELON", "STRAWBERRY", "PINEAPPLE"],
+      "price": 3.5
+    },
+    {
+      "id": 5,
+      "name": "DASANI BOTTLED WATER",
+      "ingredients": [],
+      "price": 1.75
+    },
+    {
+      "id": 6,
+      "name": "SMART WATER",
+      "ingredients": [],
+      "price": 3
+    },
+    {
+      "id": 7,
+      "name": "GOLD PEAK SWEET BLACK TEA",
+      "ingredients": [],
+      "price": 2.5
+    },
+    {
+      "id": 8,
+      "name": "BIG BERRY",
+      "ingredients": [],
+      "price": 1.75
+    },
+    {
+      "id": 9,
+      "name": "BOBA TEA",
+      "ingredients": ["STRAWBERRY", "HONEYDEW", "DRAGONFLY THAI", "MANGO", "WATERMELON", "COCONUT", "MILK TEA", "MATCHA GREEN TEA", "TARO"],
+      "price": 4.95
+    }
+  ],
+  "alcohol": {
+    "beer": [
+      {
+        "id": 1,
+        "name": "SAPPORO DRAFT",
+        "ingredients": [],
+        "price": 4.5
+      },
+      {
+        "id": 2,
+        "name": "SAPPORO PITCHER",
+        "ingredients": [],
+        "price": 14
+      },{
+        "id": 3,
+        "name": "BLUE MOON",
+        "ingredients": [],
+        "price": 4
+      },{
+        "id": 4,
+        "name": "SHOCK TOP",
+        "ingredients": [],
+        "price": 4
+      },{
+        "id": 5,
+        "name": "HEINEKEN",
+        "ingredients": [],
+        "price": 4
+      },{
+        "id": 6,
+        "name": "COORS LIGHT",
+        "ingredients": [],
+        "price": 3
+      },{
+        "id": 7,
+        "name": "MILLER LITE",
+        "ingredients": [],
+        "price": 3
+      },{
+        "id": 8,
+        "name": "HOEGAARDEN",
+        "ingredients": [],
+        "price": 4
+      },{
+        "id": 9,
+        "name": "SCOFFLAW POG BASEMENT IPA",
+        "ingredients": [],
+        "price": 4
+      }
+    ],
+    "sake": [
+      {
+        "id": 1,
+        "name": "HOUSE SAKE",
+        "ingredients": ["COLD", "HOT"],
+        "price": 6
+      },
+      {
+        "id": 2,
+        "name": "BOBA SAKE",
+        "ingredients": ["STRAWBERRY", "HONEYDEW", "DRAGONFLY THAI", "MANGO", "WATERMELON", "COCONUT", "MILK TEA", "MATCHA GREEN TEA", "TARO"],
+        "price": 7.5
+      },
+      {
+        "id": 3,
+        "name": "KITAYA KIRI",
+        "ingredients": ["PEAR", "LYCHEE", "BLUEBERRY", "MANGO", "PEACH"],
+        "price": 23
+      },
+      {
+        "id": 4,
+        "name": "CHOCOLATE NIGORI",
+        "ingredients": [],
+        "price": 16
+      },
+      {
+        "id": 5,
+        "name": "STRAWBERRY NIGORI",
+        "ingredients": [],
+        "price": 16
+      },
+      {
+        "id": 6,
+        "name": "MANGO NIGORI",
+        "ingredients": [],
+        "price": 14
+      },
+      {
+        "id": 7,
+        "name": "TSURU-UME LEMON SAKE",
+        "ingredients": [],
+        "price": 50
+      },
+      {
+        "id": 8,
+        "name": "TSURU-UME ORANGE SAKE",
+        "ingredients": [],
+        "price": 50
+      },
+      {
+        "id": 9,
+        "name": "FORGOTTEN JAPANESE SPIRIT",
+        "ingredients": [],
+        "price": 24
+      }
+    ]
+  },
+  "combo": [
+    {
+      "name": "VEGETABLE SPRING ROLL (5PC)",
+      "price": 5.5
+    },
+    {
+      "name": "FRIED PORK GYOZA (5PC)",
+      "price": 5.5
+    },
+    {
+      "name": "CHICKEN KARAAGE",
+      "price": 6.5
+    },
+    {
+      "name": "CHICKEN KARAAGE PARMESAN",
+      "price": 7.5
+    },
+    {
+      "name": "POP ROCK SHRIMP",
+      "price": 7
+    }
+  ]
 }

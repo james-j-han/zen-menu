@@ -9,9 +9,14 @@ import "./index.css";
 import logo from "./images/zen.png";
 import spiceImage from "./images/spice.png";
 import ramen from "./images/ramen.webp";
+import shoyu from "./images/shoyu.png";
 import sushi from "./images/sushi.webp";
 import poke from "./images/poke.png";
 import appetizer from "./images/appetizer.webp";
+import dessert from "./images/dessert.webp";
+import beverage from "./images/beverage.webp";
+import beer from "./images/beer.webp";
+import sake from "./images/sake.webp";
 
 // console.log(Menu);
 
@@ -55,7 +60,7 @@ function Operation() {
 
 function Footer() {
   return (
-    <footer>&copy; {new Date().getFullYear()} Zen Ramen & Sushi Burrito</footer>
+    <footer>&copy; {new Date().getFullYear()} ZEN RAMEN & SUSHI BURRITO</footer>
   );
 }
 
@@ -94,12 +99,14 @@ function Section(props) {
                   <strong>{item.price}</strong>
                 </span>
               </div>
-              {item.ingredients
-                ? item.ingredients.map((ingredient) => {
-                    return <span className="ingredient">{ingredient}</span>;
-                  })
-                : null}
-              <p>{item.description}</p>
+              <div>
+                {item.ingredients
+                  ? item.ingredients.map((ingredient) => {
+                      return <span className="ingredient">{ingredient}</span>;
+                    })
+                  : null}
+              </div>
+              <div>{item.description ? item.description : null}</div>
             </div>
           );
         })}
@@ -112,19 +119,34 @@ function NavBar() {
   return (
     <section>
       <div className="section-heading">
-        <div className="nav-bar-heading">Menu</div>
+        <div className="nav-bar-heading">ZEN MENU</div>
         <div className="nav-bar">
           <a className="nav-item" href="#appetizer-section">
-            Appetizer
+            APPETIZER
           </a>
-          <a className="nav-item" href="#ramen-section">
-            Ramen
+          <a className="nav-item" href="#tonkotsu-ramen-section">
+            TONKOTSU RAMEN
+          </a>
+          <a className="nav-item" href="#shoyu-ramen-section">
+            SHOYU RAMEN
           </a>
           <a className="nav-item" href="#poke-section">
-            Poke
+            POKE BOWL
           </a>
           <a className="nav-item" href="#burrito-section">
-            Burrito
+            SUSHI BURRITO
+          </a>
+          <a className="nav-item" href="#dessert-section">
+            DESSERT
+          </a>
+          <a className="nav-item" href="#beverage-section">
+            BEVERAGE
+          </a>
+          <a className="nav-item" href="#beer-section">
+            BEER
+          </a>
+          <a className="nav-item" href="#sake-section">
+            SAKE
           </a>
         </div>
         <div className="nav-footer">
@@ -136,27 +158,57 @@ function NavBar() {
       <div className="section-content">
         <Section
           navId="appetizer-section"
-          heading="Appetizer"
+          heading="APPETIZER"
           image={appetizer}
           menuItem={Menu["appetizer"]}
         />
         <Section
-          navId="ramen-section"
-          heading="Ramen"
+          navId="tonkotsu-ramen-section"
+          heading="TONKOTSU RAMEN"
           image={ramen}
-          menuItem={Menu["ramen"]}
+          menuItem={Menu["ramen"]["tonkotsu"]}
+        />
+        <Section
+          navId="shoyu-ramen-section"
+          heading="SHOYU RAMEN"
+          image={shoyu}
+          menuItem={Menu["ramen"]["shoyu"]}
         />
         <Section
           navId="poke-section"
-          heading="Poke Bowl"
+          heading="POKE BOWL"
           image={poke}
           menuItem={Menu["pokeBowl"]}
         />
         <Section
           navId="burrito-section"
-          heading="Sushi Burrito"
+          heading="SUSHI BURRITO"
           image={sushi}
           menuItem={Menu["burrito"]}
+        />
+        <Section
+          navId="dessert-section"
+          heading="DESSERT"
+          image={dessert}
+          menuItem={Menu["dessert"]}
+        />
+        <Section
+          navId="beverage-section"
+          heading="BEVERAGE"
+          image={beverage}
+          menuItem={Menu["beverage"]}
+        />
+        <Section
+          navId="beer-section"
+          heading="BEER"
+          image={beer}
+          menuItem={Menu["alcohol"]["beer"]}
+        />
+        <Section
+          navId="sake-section"
+          heading="SAKE"
+          image={sake}
+          menuItem={Menu["alcohol"]["sake"]}
         />
       </div>
     </section>
@@ -167,6 +219,7 @@ function App() {
   return (
     <div>
       <Header />
+      {}
       <Operation />
       <NavBar />
       <Footer />
