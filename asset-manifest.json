@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/zen-menu/static/css/main.94b3269b.css",
-    "main.js": "/zen-menu/static/js/main.e8236890.js",
+    "main.css": "/zen-menu/static/css/main.544febd1.css",
+    "main.js": "/zen-menu/static/js/main.e94008e2.js",
+    "static/media/miso.png": "/zen-menu/static/media/miso.e016762f914ceb52594d.png",
     "static/media/shoyu.png": "/zen-menu/static/media/shoyu.aeff59aa31cedd3e2ea4.png",
     "static/media/poke.png": "/zen-menu/static/media/poke.38a8111d7d01ad978009.png",
     "static/media/beverage.webp": "/zen-menu/static/media/beverage.ab115d73d73539ef871d.webp",
+    "static/media/vampire.png": "/zen-menu/static/media/vampire.0378897b1528eed0e4ab.png",
     "static/media/zen.png": "/zen-menu/static/media/zen.0c982840a7e8ae2e3158.png",
     "static/media/sake.webp": "/zen-menu/static/media/sake.3cc8d060d7f81c4f2f98.webp",
+    "static/media/combo.png": "/zen-menu/static/media/combo.9a7787f2bd1cd113914a.png",
     "static/media/mary-kate.ttf": "/zen-menu/static/media/mary-kate.5512fef3a3a60fc54275.ttf",
     "static/media/spice.png": "/zen-menu/static/media/spice.af6ecbc253c8afd809d8.png",
     "static/media/ramen.webp": "/zen-menu/static/media/ramen.599395998aa06ed9a99b.webp",
@@ -15,11 +18,11 @@
     "static/media/beer.webp": "/zen-menu/static/media/beer.1957f2925afa67a17ab0.webp",
     "static/media/dessert.webp": "/zen-menu/static/media/dessert.d1c884559a9a90ed5ea4.webp",
     "index.html": "/zen-menu/index.html",
-    "main.94b3269b.css.map": "/zen-menu/static/css/main.94b3269b.css.map",
-    "main.e8236890.js.map": "/zen-menu/static/js/main.e8236890.js.map"
+    "main.544febd1.css.map": "/zen-menu/static/css/main.544febd1.css.map",
+    "main.e94008e2.js.map": "/zen-menu/static/js/main.e94008e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b3269b.css",
-    "static/js/main.e8236890.js"
+    "static/css/main.544febd1.css",
+    "static/js/main.e94008e2.js"
   ]
 }
