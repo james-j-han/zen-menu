@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/zen-menu/static/css/main.544febd1.css",
-    "main.js": "/zen-menu/static/js/main.e94008e2.js",
+    "main.css": "/zen-menu/static/css/main.f40ece4d.css",
+    "main.js": "/zen-menu/static/js/main.af3c72c3.js",
     "static/media/miso.png": "/zen-menu/static/media/miso.e016762f914ceb52594d.png",
     "static/media/shoyu.png": "/zen-menu/static/media/shoyu.aeff59aa31cedd3e2ea4.png",
     "static/media/poke.png": "/zen-menu/static/media/poke.38a8111d7d01ad978009.png",
+    "static/media/cloud.png": "/zen-menu/static/media/cloud.4cd43b0828444f1c8ae8.png",
     "static/media/beverage.webp": "/zen-menu/static/media/beverage.ab115d73d73539ef871d.webp",
     "static/media/vampire.png": "/zen-menu/static/media/vampire.0378897b1528eed0e4ab.png",
     "static/media/zen.png": "/zen-menu/static/media/zen.0c982840a7e8ae2e3158.png",
@@ -18,11 +19,11 @@
     "static/media/beer.webp": "/zen-menu/static/media/beer.1957f2925afa67a17ab0.webp",
     "static/media/dessert.webp": "/zen-menu/static/media/dessert.d1c884559a9a90ed5ea4.webp",
     "index.html": "/zen-menu/index.html",
-    "main.544febd1.css.map": "/zen-menu/static/css/main.544febd1.css.map",
-    "main.e94008e2.js.map": "/zen-menu/static/js/main.e94008e2.js.map"
+    "main.f40ece4d.css.map": "/zen-menu/static/css/main.f40ece4d.css.map",
+    "main.af3c72c3.js.map": "/zen-menu/static/js/main.af3c72c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.544febd1.css",
-    "static/js/main.e94008e2.js"
+    "static/css/main.f40ece4d.css",
+    "static/js/main.af3c72c3.js"
   ]
 }
