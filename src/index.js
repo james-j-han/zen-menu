@@ -40,25 +40,50 @@ function Header() {
 
 function Operation() {
   return (
-    <>
-      <div className="business-information">
-        <span>957 Joe Frank Harris Pkwy SE</span>
-        <span>Cartersville, GA 30120</span>
-        <span>(470) 227-7125</span>
+    <div className="business-information">
+      <div className="street">957 JOE FRANK HARRIS PKWY SE</div>
+      <div className="city-state-zip">CARTERSVILLE, GA 30120</div>
+      <div className="phone">(470) 227-7125</div>
+      <div className="operation">HOURS OF OPERATION</div>
+      <div className="weekday-row closed">
+        <span className="day">MONDAY</span>
+        <span className="hours">CLOSED</span>
       </div>
-      <div className="operation">
-        <span>
-          <strong>Hours of Operation</strong>
-        </span>
-        <span className="closed">Monday: Closed</span>
-        <span className="closed">Tuesday: Closed</span>
-        <span>Wednesday: 11:30am - 8:30pm</span>
-        <span>Thursday: 11:30am - 8:30pm</span>
-        <span>Friday: 11:30am - 9:00pm</span>
-        <span>Saturday: 11:30am - 9:00pm</span>
-        <span>Sunday: 12:00pm - 8:00pm</span>
+      <div className="weekday-row closed">
+        <span className="day">TUESDAY</span>
+        <span className="hours">CLOSED</span>
       </div>
-    </>
+      <div className="weekday-row">
+        <span className="day">WEDNESDAY</span>
+        <div className="hours">
+          <span>11:30AM</span>-<span>8:30PM</span>
+        </div>
+      </div>
+      <div className="weekday-row">
+        <span className="day">THURSDAY</span>
+        <div className="hours">
+          <span>11:30AM</span>-<span>8:30PM</span>
+        </div>
+      </div>
+      <div className="weekday-row">
+        <span className="day">FRIDAY</span>
+        <div className="hours">
+          <span>11:30AM</span>-<span>9:30PM</span>
+        </div>
+      </div>
+      <div className="weekday-row">
+        <span className="day">SATURDAY</span>
+        <div className="hours">
+          <span>11:30AM</span>-<span>9:30PM</span>
+        </div>
+      </div>
+      <div className="weekday-row">
+        <span className="day">SUNDAY</span>
+        <div className="hours">
+          <span>12:00PM</span>-<span>8:00PM</span>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -266,12 +291,12 @@ function NavBar() {
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Operation />
       <NavBar />
       <Footer />
-    </div>
+    </>
   );
 }
 
