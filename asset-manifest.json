@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/zen-menu/static/css/main.f40ece4d.css",
-    "main.js": "/zen-menu/static/js/main.af3c72c3.js",
+    "main.css": "/zen-menu/static/css/main.32683266.css",
+    "main.js": "/zen-menu/static/js/main.20761dfb.js",
     "static/media/miso.png": "/zen-menu/static/media/miso.e016762f914ceb52594d.png",
     "static/media/shoyu.png": "/zen-menu/static/media/shoyu.aeff59aa31cedd3e2ea4.png",
     "static/media/poke.png": "/zen-menu/static/media/poke.38a8111d7d01ad978009.png",
     "static/media/cloud.png": "/zen-menu/static/media/cloud.4cd43b0828444f1c8ae8.png",
     "static/media/beverage.webp": "/zen-menu/static/media/beverage.ab115d73d73539ef871d.webp",
+    "static/media/sauce.webp": "/zen-menu/static/media/sauce.f1e18887445060afbbdd.webp",
     "static/media/vampire.png": "/zen-menu/static/media/vampire.0378897b1528eed0e4ab.png",
     "static/media/zen.png": "/zen-menu/static/media/zen.0c982840a7e8ae2e3158.png",
     "static/media/sake.webp": "/zen-menu/static/media/sake.3cc8d060d7f81c4f2f98.webp",
@@ -15,15 +16,19 @@
     "static/media/spice.png": "/zen-menu/static/media/spice.af6ecbc253c8afd809d8.png",
     "static/media/ramen.webp": "/zen-menu/static/media/ramen.599395998aa06ed9a99b.webp",
     "static/media/sushi.webp": "/zen-menu/static/media/sushi.11ed2b14f3f8cc607204.webp",
+    "static/media/protein.webp": "/zen-menu/static/media/protein.029893722daafcef5043.webp",
+    "static/media/down-arrow.png": "/zen-menu/static/media/down-arrow.c33e897764c63ab7b646.png",
+    "static/media/kimchi.webp": "/zen-menu/static/media/kimchi.8d6ede67684d8df81482.webp",
+    "static/media/up-arrow.png": "/zen-menu/static/media/up-arrow.7bee62cdc0d305750cc7.png",
     "static/media/appetizer.webp": "/zen-menu/static/media/appetizer.38cce534dfb786008194.webp",
     "static/media/beer.webp": "/zen-menu/static/media/beer.1957f2925afa67a17ab0.webp",
     "static/media/dessert.webp": "/zen-menu/static/media/dessert.d1c884559a9a90ed5ea4.webp",
     "index.html": "/zen-menu/index.html",
-    "main.f40ece4d.css.map": "/zen-menu/static/css/main.f40ece4d.css.map",
-    "main.af3c72c3.js.map": "/zen-menu/static/js/main.af3c72c3.js.map"
+    "main.32683266.css.map": "/zen-menu/static/css/main.32683266.css.map",
+    "main.20761dfb.js.map": "/zen-menu/static/js/main.20761dfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40ece4d.css",
-    "static/js/main.af3c72c3.js"
+    "static/css/main.32683266.css",
+    "static/js/main.20761dfb.js"
   ]
 }
