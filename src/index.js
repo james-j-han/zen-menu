@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDom from "react-dom/client";
 import Menu from "./menu.json";
 
@@ -16,12 +16,19 @@ import miso from "./images/miso.png";
 import vampire from "./images/vampire.png";
 import sushi from "./images/sushi.webp";
 import poke from "./images/poke.png";
+import kimchi from "./images/kimchi.webp";
+import sauce from "./images/sauce.webp";
+import protein from "./images/protein.webp";
 import appetizer from "./images/appetizer.webp";
 import dessert from "./images/dessert.webp";
 import beverage from "./images/beverage.webp";
 import lunar from "./images/lunar.jpg";
 import beer from "./images/beer.webp";
 import sake from "./images/sake.webp";
+
+// Icons
+import upArrow from "./icons/up-arrow.png";
+import downArrow from "./icons/down-arrow.png";
 
 // console.log(Menu);
 
@@ -31,7 +38,7 @@ function Logo() {
       <img className="cloud" src={cloud} alt="cloud" />
       <img className="logo" src={logo} alt="Zen Logo" />
     </div>
-  )
+  );
 }
 
 function Header() {
@@ -45,50 +52,64 @@ function Header() {
 }
 
 function Operation() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleHours = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <div className="business-information">
       <div className="street">957 JOE FRANK HARRIS PKWY SE</div>
       <div className="city-state-zip">CARTERSVILLE, GA 30120</div>
       <div className="phone">(470) 227-7125</div>
-      <div className="operation">HOURS OF OPERATION</div>
-      <div className="weekday-row closed">
-        <span className="day">MONDAY</span>
-        <span className="hours">CLOSED</span>
+      <div className="operation" onClick={toggleHours}>
+        HOURS OF OPERATION
+        <span>{isExpanded ? <img className="icon" src={upArrow} alt="Up arrow" /> : <img className="icon" src={downArrow} alt="Down arrow" />}</span>
       </div>
-      <div className="weekday-row closed">
-        <span className="day">TUESDAY</span>
-        <span className="hours">CLOSED</span>
-      </div>
-      <div className="weekday-row">
-        <span className="day">WEDNESDAY</span>
-        <div className="hours">
-          <span>11:30AM</span>-<span>8:30PM</span>
-        </div>
-      </div>
-      <div className="weekday-row">
-        <span className="day">THURSDAY</span>
-        <div className="hours">
-          <span>11:30AM</span>-<span>8:30PM</span>
-        </div>
-      </div>
-      <div className="weekday-row">
-        <span className="day">FRIDAY</span>
-        <div className="hours">
-          <span>11:30AM</span>-<span>9:30PM</span>
-        </div>
-      </div>
-      <div className="weekday-row">
-        <span className="day">SATURDAY</span>
-        <div className="hours">
-          <span>11:30AM</span>-<span>9:30PM</span>
-        </div>
-      </div>
-      <div className="weekday-row">
-        <span className="day">SUNDAY</span>
-        <div className="hours">
-          <span>12:00PM</span>-<span>8:00PM</span>
-        </div>
-      </div>
+      {isExpanded && (
+        <>
+          <div className="weekday-row closed">
+            <span className="day">MONDAY</span>
+            <span className="hours">CLOSED</span>
+          </div>
+          <div className="weekday-row closed">
+            <span className="day">TUESDAY</span>
+            <span className="hours">CLOSED</span>
+          </div>
+          <div className="weekday-row">
+            <span className="day">WEDNESDAY</span>
+            <div className="hours">
+              <span>11:30AM</span>-<span>8:30PM</span>
+            </div>
+          </div>
+          <div className="weekday-row">
+            <span className="day">THURSDAY</span>
+            <div className="hours">
+              <span>11:30AM</span>-<span>8:30PM</span>
+            </div>
+          </div>
+          <div className="weekday-row">
+            <span className="day">FRIDAY</span>
+            <div className="hours">
+              <span>11:30AM</span>-<span>9:30PM</span>
+            </div>
+          </div>
+          <div className="weekday-row">
+            <span className="day">SATURDAY</span>
+            <div className="hours">
+              <span>11:30AM</span>-<span>9:30PM</span>
+            </div>
+          </div>
+          <div className="weekday-row">
+            <span className="day">SUNDAY</span>
+            <div className="hours">
+              <span>12:00PM</span>-<span>8:00PM</span>
+            </div>
+          </div>
+          <div className="last-call">LAST CALL 20 MIN BEFORE CLOSE</div>
+        </>
+      )}
     </div>
   );
 }
@@ -120,6 +141,7 @@ function Section(props) {
       <div className="section-subheading">
         {props.image ? <img src={props.image} alt="Ramen" /> : null}
         <h2>{props.heading}</h2>
+        <h4>{props.subheading ? props.subheading : null}</h4>
       </div>
       <div className="section-subcontent">
         {props.menuItem.map((item) => {
@@ -138,7 +160,14 @@ function Section(props) {
               <div>
                 {item.ingredients
                   ? item.ingredients.map((ingredient, index) => {
-                      return <span key={`ingredient-${index}`} className="ingredient">{ingredient}</span>;
+                      return (
+                        <span
+                          key={`ingredient-${index}`}
+                          className="ingredient"
+                        >
+                          {ingredient}
+                        </span>
+                      );
                     })
                   : null}
               </div>
@@ -155,7 +184,11 @@ function NavBar() {
   return (
     <section>
       <div className="section-heading">
-        <div className="nav-bar-heading">ZEN MENU</div>
+        <div className="nav-bar-heading">
+          <a className="zen-menu" href="#top">
+            ZEN MENU
+          </a>
+        </div>
         <div className="nav-bar">
           <a className="nav-item" href="#appetizer-section">
             APPETIZER
@@ -183,6 +216,15 @@ function NavBar() {
           </a>
           <a className="nav-item" href="#burrito-section">
             SUSHI BURRITO
+          </a>
+          <a className="nav-item" href="#protein-section">
+            PROTEIN
+          </a>
+          <a className="nav-item" href="#side-section">
+            SIDE
+          </a>
+          <a className="nav-item" href="#sauce-section">
+            SAUCE
           </a>
           <a className="nav-item" href="#dessert-section">
             DESSERT
@@ -240,6 +282,7 @@ function NavBar() {
         <Section
           navId="vampire-ramen-section"
           heading="VAMPIRE RAMEN"
+          subheading="BROTHLESS"
           image={vampire}
           menuItem={Menu["ramen"]["vampire"]}
         />
@@ -258,8 +301,27 @@ function NavBar() {
         <Section
           navId="burrito-section"
           heading="SUSHI BURRITO"
+          subheading="NO SUBSTITUTIONS"
           image={sushi}
           menuItem={Menu["burrito"]}
+        />
+        <Section
+          navId="protein-section"
+          heading="PROTEIN"
+          image={protein}
+          menuItem={Menu["proteins"]}
+        />
+        <Section
+          navId="side-section"
+          heading="SIDE"
+          image={kimchi}
+          menuItem={Menu["sides"]}
+        />
+        <Section
+          navId="sauce-section"
+          heading="SAUCE"
+          image={sauce}
+          menuItem={Menu["sauces"]}
         />
         <Section
           navId="dessert-section"

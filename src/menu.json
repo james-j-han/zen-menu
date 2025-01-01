@@ -72,6 +72,22 @@
         "price": 16,
         "raw": false,
         "spiceLevel": 0
+      },
+      {
+        "id": 10,
+        "name": "TOPPINGS",
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "price": 1,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 11,
+        "name": "TOPPINGS",
+        "ingredients": ["BLACK GARLIC OIL"],
+        "price": 2,
+        "raw": false,
+        "spiceLevel": 0
       }
     ],
     "shoyu": [
@@ -138,6 +154,22 @@
         "price": 14.5,
         "raw": false,
         "spiceLevel": 0
+      },
+      {
+        "id": 9,
+        "name": "TOPPINGS",
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "price": 1,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 10,
+        "name": "TOPPINGS",
+        "ingredients": ["BLACK GARLIC OIL"],
+        "price": 2,
+        "raw": false,
+        "spiceLevel": 0
       }
     ],
     "miso": [
@@ -148,13 +180,29 @@
         "price": 12,
         "raw": false,
         "spiceLevel": 0
+      },
+      {
+        "id": 2,
+        "name": "TOPPINGS",
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "price": 1,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 3,
+        "name": "TOPPINGS",
+        "ingredients": ["BLACK GARLIC OIL"],
+        "price": 2,
+        "raw": false,
+        "spiceLevel": 0
       }
     ],
     "vampire": [
       {
         "id": 1,
         "name": "CHICKEN KATSU",
-        "ingredients": ["FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
+        "ingredients": ["FRIED CHICKEN TENDER", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE", "NO BROTH"],
         "price": 14,
         "raw": false,
         "spiceLevel": 4
@@ -162,7 +210,7 @@
       {
         "id": 2,
         "name": "SHRIMP",
-        "ingredients": ["FRIED SHRIMP TEMPURA", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
+        "ingredients": ["FRIED SHRIMP TEMPURA", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE", "NO BROTH"],
         "price": 15,
         "raw": false,
         "spiceLevel": 4
@@ -170,10 +218,26 @@
       {
         "id": 3,
         "name": "BULGOGI",
-        "ingredients": ["SOY MARINATED KOREAN BEEF", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE"],
-        "price": 14,
+        "ingredients": ["SOY MARINATED KOREAN BEEF", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "ZEN VAMPIRE SPICE", "NO BROTH"],
+        "price": 16,
         "raw": false,
         "spiceLevel": 4
+      },
+      {
+        "id": 4,
+        "name": "TOPPINGS",
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "price": 1,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 5,
+        "name": "TOPPINGS",
+        "ingredients": ["BLACK GARLIC OIL"],
+        "price": 2,
+        "raw": false,
+        "spiceLevel": 0
       }
     ],
     "kid": [
@@ -181,7 +245,7 @@
         "id": 1,
         "name": "TONKOTSU KID RAMEN",
         "ingredients": ["YELLOW NOODLE", "RICH PORK BONE BROTH"],
-        "price": 10.5,
+        "price": 11.5,
         "raw": false,
         "spiceLevel": 0
       },
@@ -189,7 +253,7 @@
         "id": 2,
         "name": "SHOYU KID RAMEN",
         "ingredients": ["YELLOW NOODLE", "LIGHT SOY BROTH"],
-        "price": 10.5,
+        "price": 11.5,
         "raw": false,
         "spiceLevel": 0
       },
@@ -197,15 +261,9 @@
         "id": 3,
         "name": "MISO KID RAMEN",
         "ingredients": ["YELLOW NOODLE", "CREAMY MISO BROTH"],
-        "price": 10.5,
+        "price": 11.5,
         "raw": false,
         "spiceLevel": 0
-      }
-    ],
-    "topping": [
-      {
-        "name": "EARWOOD MUSHROOM",
-        "price": 1.5
       }
     ]
   },
@@ -262,8 +320,22 @@
     {
       "id": 8,
       "name": "VEGETARIAN POKE",
-      "ingredients": ["FRIED TOFU (1PC)", "RED ONION", "SPINACH", "EARWOOD MUSHROOM", "PICKLE", "HALF SEASONED EGG"],
+      "ingredients": ["FRIED TOFU (1PC)", "RED ONION", "SPINACH", "EARWOOD MUSHROOM", "CUCUMBER", "AVOCADO", "LETTUCE", "YELLOW PICKLED RADISH", "SEAWEED SALAD", "PICKLED RED GINGER", "PICKLE", "HALF SEASONED EGG"],
       "price": 13.0,
+      "raw": false
+    },
+    {
+      "id": 9,
+      "name": "TOPPINGS",
+      "ingredients": ["SEASONED EGG", "FRIED PORK GYOZA (1PC)", "JALAPENO", "PICKLED RED GINGER", "EARWOOD MUSHROOM", "SPINACH", "RED ONION", "CUCUMBER", "LETTUCE", "EDAMAME", "PICKLE (2PC)", "POTATO STICKS", "CREAM CHEESE"],
+      "price": 1,
+      "raw": false
+    },
+    {
+      "id": 10,
+      "name": "TOPPINGS",
+      "ingredients": ["AVOCADO", "YELLOW PICKLED RADISH", "SEAWEED SALAD", "CRAB SALAD"],
+      "price": 1.5,
       "raw": false
     }
   ],
@@ -286,7 +358,7 @@
       "id": 3,
       "name": "SOFT SHELL CRAB BURRITO",
       "ingredients": ["SEAWEED WRAP", "FRIED SOFT SHELL CRAB", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SIRACHA SAUCE"],
-      "price": 17.0,
+      "price": 16.0,
       "raw": false
     },
     {
@@ -359,14 +431,14 @@
       "name": "SEAWEED SALAD",
       "ingredients": [],
       "description": "",
-      "price": 5
+      "price": 5.5
     },
     {
       "id": 2,
       "name": "EDAMAME",
       "ingredients": [],
       "description": "",
-      "price": 5
+      "price": 5.5
     },
     {
       "id": 3,
@@ -394,42 +466,42 @@
       "name": "CHICKEN KARAAGE",
       "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE"],
       "description": "",
-      "price": 7.5
+      "price": 9.5
     },
     {
       "id": 7,
       "name": "CHICKEN KARAAGE PARMESAN",
       "ingredients": ["BITE SIZED FRIED CHICKEN", "SPICY MAYO SAUCE", "PARMESAN CHEESE"],
       "description": "",
-      "price": 8.5
+      "price": 10.5
     },
     {
       "id": 8,
       "name": "POP ROCK SHRIMP",
       "ingredients": ["FRIED SHRIMP TEMPURA", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
       "description": "",
-      "price": 9.5
+      "price": 10.5
     },
     {
       "id": 9,
       "name": "CHICKEN KATSU SANTOS",
       "ingredients": ["FRIED CHICKEN TENDER", "WHEAT BREAD", "SPICY MAYO SAUCE", "KARAAGE SAUCE"],
       "description": "",
-      "price": 7.5
+      "price": 8.5
     },
     {
       "id": 10,
       "name": "PORK BUN",
       "ingredients": ["STEAMED BAO BUN (2PC)", "PORK CHASHU (2PC)", "HOISIN SAUCE", "LETTUCE"],
       "description": "",
-      "price": 7
+      "price": 8
     },
     {
       "id": 11,
       "name": "CHICKEN BUN",
       "ingredients": ["STEAMED BAO BUN (2PC)", "FRIED CHICKEN TENDER", "KARAAGE SAUCE", "LETTUCE"],
       "description": "",
-      "price": 7
+      "price": 8
     },
     {
       "id": 12,
@@ -443,7 +515,7 @@
       "name": "ROCK & ROLL",
       "ingredients": [],
       "description": "",
-      "price": 10,
+      "price": 11,
       "raw": true
     },
     {
@@ -451,7 +523,7 @@
       "name": "985 ROLL",
       "ingredients": [],
       "description": "",
-      "price": 9.85,
+      "price": 10.85,
       "raw": true
     },
     {
@@ -459,14 +531,14 @@
       "name": "CHICKEN NACHO",
       "ingredients": [],
       "description": "",
-      "price": 9.5
+      "price": 10.5
     },
     {
       "id": 16,
       "name": "TUNA NACHO",
       "ingredients": [],
       "description": "",
-      "price": 9.5,
+      "price": 10.5,
       "raw": true
     },
     {
@@ -474,7 +546,7 @@
       "name": "SALMON NACHO",
       "ingredients": [],
       "description": "",
-      "price": 9.5,
+      "price": 10.5,
       "raw": true
     }
   ],
@@ -561,7 +633,7 @@
       {
         "id": 1,
         "name": "SAPPORO DRAFT",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4.5
       },
       {
@@ -572,37 +644,37 @@
       },{
         "id": 3,
         "name": "BLUE MOON",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4
       },{
         "id": 4,
         "name": "SHOCK TOP",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4
       },{
         "id": 5,
         "name": "HEINEKEN",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4
       },{
         "id": 6,
         "name": "COORS LIGHT",
-        "ingredients": [],
-        "price": 3
+        "ingredients": ["3 for $10"],
+        "price": 4
       },{
         "id": 7,
         "name": "MILLER LITE",
-        "ingredients": [],
-        "price": 3
+        "ingredients": ["3 for $10"],
+        "price": 4
       },{
         "id": 8,
         "name": "HOEGAARDEN",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4
       },{
         "id": 9,
         "name": "SCOFFLAW POG BASEMENT IPA",
-        "ingredients": [],
+        "ingredients": ["3 for $10"],
         "price": 4
       }
     ],
@@ -680,19 +752,193 @@
       "id": 3,
       "name": "CHICKEN KARAAGE",
       "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE"],
-      "price": 6.5
+      "price": 7
     },
     {
       "id": 4,
       "name": "CHICKEN KARAAGE PARMESAN",
       "ingredients": ["BITE SIZED FRIED CHICKEN", "KARAAGE SAUCE", "PARMESAN CHEESE"],
-      "price": 7.5
+      "price": 8
     },
     {
       "id": 5,
       "name": "POP ROCK SHRIMP",
       "ingredients": ["FRIED SHRIMP TEMPURA", "SPICY MAYO SAUCE", "SWEET CHILI SAUCE"],
-      "price": 7
+      "price": 7.5
+    }
+  ],
+  "sides": [
+    {
+      "id": 1,
+      "name": "SUSHI RICE",
+      "ingredients": [],
+      "price": 3,
+      "raw": false
+    },
+    {
+      "id": 2,
+      "name": "FRESH KIMCHI",
+      "ingredients": [],
+      "price": 4,
+      "raw": false
+    },
+    {
+      "id": 3,
+      "name": "FRIED KIMCHI",
+      "ingredients": [],
+      "price": 4,
+      "raw": false
+    },
+    {
+      "id": 4,
+      "name": "YELLOW PICKLED RADISH",
+      "ingredients": [],
+      "price": 4,
+      "raw": false
+    },
+    {
+      "id": 5,
+      "name": "CRAB SALAD",
+      "ingredients": [],
+      "price": 4,
+      "raw": false
+    },
+    {
+      "id": 6,
+      "name": "BROTH",
+      "ingredients": ["TONKOTSU", "SHOYU", "MISO"],
+      "price": 6,
+      "raw": false
+    }
+  ],
+  "proteins": [
+    {
+      "id": 1,
+      "name": "TOFU (2PC)",
+      "ingredients": [],
+      "price": 4.5,
+      "raw": false
+    },
+    {
+      "id": 2,
+      "name": "TUNA",
+      "ingredients": [],
+      "price": 6,
+      "raw": true
+    },
+    {
+      "id": 3,
+      "name": "SALMON",
+      "ingredients": [],
+      "price": 6,
+      "raw": true
+    },
+    {
+      "id": 4,
+      "name": "FRIED SHRIMP TEMPURA",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 5,
+      "name": "COOKED SHRIMP",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 6,
+      "name": "FRIED CHICKEN TENDER",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 7,
+      "name": "GRILLED CHICKEN",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 8,
+      "name": "SOFT SHELL CRAB",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 9,
+      "name": "PORK CHASHU (2PC)",
+      "ingredients": [],
+      "price": 6,
+      "raw": false
+    },
+    {
+      "id": 10,
+      "name": "BULGOGI",
+      "ingredients": [],
+      "price": 6.5,
+      "raw": false
+    },
+    {
+      "id": 11,
+      "name": "CHICKEN CHEESE KATSU",
+      "ingredients": [],
+      "price": 6.5,
+      "raw": false
+    }
+  ],
+  "sauces": [
+    {
+      "id": 1,
+      "name": "SPICY MAYO (2OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 2,
+      "name": "YUM YUM (2OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 3,
+      "name": "EEL (2OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 4,
+      "name": "CREAMY WASABI (2OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 5,
+      "name": "POKE (2OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 6,
+      "name": "ZEN ORIGINAL SPICE",
+      "price": 1,
+      "spiceLevel": 1
+    },
+    {
+      "id": 7,
+      "name": "ZEN KAMIKAZE SPICE",
+      "price": 2,
+      "spiceLevel": 2
+    },
+    {
+      "id": 8,
+      "name": "ZEN ATOMIC SPICE",
+      "price": 2,
+      "spiceLevel": 3
+    },
+    {
+      "id": 9,
+      "name": "VAMPIRE",
+      "price": 5,
+      "spiceLevel": 4
     }
   ]
 }
