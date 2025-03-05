@@ -76,7 +76,7 @@
       {
         "id": 10,
         "name": "TOPPINGS",
-        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "BAMBOO SHOOT", "RED ONION", "MISO BUTTER BALL", "RED GINGER PASTE", "EDAMAME"],
         "price": 1,
         "raw": false,
         "spiceLevel": 0
@@ -86,6 +86,14 @@
         "name": "TOPPINGS",
         "ingredients": ["BLACK GARLIC OIL"],
         "price": 2,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 12,
+        "name": "TOPPINGS",
+        "ingredients": ["YELLOW NOODLE"],
+        "price": 5,
         "raw": false,
         "spiceLevel": 0
       }
@@ -150,7 +158,7 @@
       {
         "id": 8,
         "name": "BLACK",
-        "ingredients": ["PORK CHASHU (2PC)", "CORN", "BLACK GARLIC OIL", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
+        "ingredients": ["FRIED CHICKEN TENDER", "CORN", "BLACK GARLIC OIL", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "LIGHT SOY BROTH"],
         "price": 14.5,
         "raw": false,
         "spiceLevel": 0
@@ -158,7 +166,7 @@
       {
         "id": 9,
         "name": "TOPPINGS",
-        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "BAMBOO SHOOT", "RED ONION", "MISO BUTTER BALL", "RED GINGER PASTE", "EDAMAME"],
         "price": 1,
         "raw": false,
         "spiceLevel": 0
@@ -168,6 +176,14 @@
         "name": "TOPPINGS",
         "ingredients": ["BLACK GARLIC OIL"],
         "price": 2,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 11,
+        "name": "TOPPINGS",
+        "ingredients": ["YELLOW NOODLE"],
+        "price": 5,
         "raw": false,
         "spiceLevel": 0
       }
@@ -184,7 +200,7 @@
       {
         "id": 2,
         "name": "TOPPINGS",
-        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "BAMBOO SHOOT", "RED ONION", "MISO BUTTER BALL", "RED GINGER PASTE", "EDAMAME"],
         "price": 1,
         "raw": false,
         "spiceLevel": 0
@@ -194,6 +210,14 @@
         "name": "TOPPINGS",
         "ingredients": ["BLACK GARLIC OIL"],
         "price": 2,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 4,
+        "name": "TOPPINGS",
+        "ingredients": ["YELLOW NOODLE"],
+        "price": 5,
         "raw": false,
         "spiceLevel": 0
       }
@@ -226,7 +250,7 @@
       {
         "id": 4,
         "name": "TOPPINGS",
-        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "RED ONION", "MISO BUTTER BALL"],
+        "ingredients": ["SEASONED EGG", "CORN", "FRIED PORK GYOZA (1PC)", "JALAPENO", "EARWOOD MUSHROOM", "GARLIC SLICE", "SPINACH", "BAMBOO SHOOT", "RED ONION", "MISO BUTTER BALL", "RED GINGER PASTE", "EDAMAME"],
         "price": 1,
         "raw": false,
         "spiceLevel": 0
@@ -236,6 +260,14 @@
         "name": "TOPPINGS",
         "ingredients": ["BLACK GARLIC OIL"],
         "price": 2,
+        "raw": false,
+        "spiceLevel": 0
+      },
+      {
+        "id": 6,
+        "name": "TOPPINGS",
+        "ingredients": ["YELLOW NOODLE"],
+        "price": 5,
         "raw": false,
         "spiceLevel": 0
       }
@@ -292,7 +324,7 @@
     {
       "id": 4,
       "name": "GRILLED CHICKEN POKE",
-      "ingredients": ["SOR MARINATED GRILLED CHICKEN", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
+      "ingredients": ["SOY MARINATED GRILLED CHICKEN", "SUSHI RICE", "CRAB SALAD", "CUCUMBER", "AVOCADO", "YELLOW PICKLED RADISH", "LETTUCE", "SEAWEED SALAD", "EDAMAME", "PICKLED RED GINGER"],
       "price": 14.0,
       "raw": false
     },
@@ -327,7 +359,7 @@
     {
       "id": 9,
       "name": "TOPPINGS",
-      "ingredients": ["SEASONED EGG", "FRIED PORK GYOZA (1PC)", "JALAPENO", "PICKLED RED GINGER", "EARWOOD MUSHROOM", "SPINACH", "RED ONION", "CUCUMBER", "LETTUCE", "EDAMAME", "PICKLE (2PC)", "POTATO STICKS", "CREAM CHEESE"],
+      "ingredients": ["SEASONED EGG", "FRIED PORK GYOZA (1PC)", "JALAPENO", "PICKLED RED GINGER", "EARWOOD MUSHROOM", "BAMBOO SHOOT", "SPINACH", "RED ONION", "CUCUMBER", "LETTUCE", "EDAMAME", "PICKLE (2PC)", "POTATO STICKS", "CREAM CHEESE"],
       "price": 1,
       "raw": false
     },
@@ -357,14 +389,14 @@
     {
       "id": 3,
       "name": "SOFT SHELL CRAB BURRITO",
-      "ingredients": ["SEAWEED WRAP", "FRIED SOFT SHELL CRAB", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SIRACHA SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "FRIED SOFT SHELL CRAB", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SRIRACHA SAUCE"],
       "price": 16.0,
       "raw": false
     },
     {
       "id": 4,
       "name": "OMG BURRITO",
-      "ingredients": ["SEAWEED WRAP", "COOKED SHRIMP", "SCALLOP", "TUNA", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "CRAB SALAD", "SPICY MAYO SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "COOKED SHRIMP", "SCALLOP", "TUNA", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "SPICY MAYO SAUCE"],
       "price": 14.0,
       "raw": true
     },
@@ -378,7 +410,7 @@
     {
       "id": 6,
       "name": "DANCING BURRITO",
-      "ingredients": ["SEAWEED WRAP", "TUNA", "FRIED SHRIMP TEMPURA", "SALMON", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "EDAMAME", "CREAMY WASABI SAUCE", "EEL SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "TUNA", "FRIED SHRIMP TEMPURA", "SALMON", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "CRAB SALAD", "EDAMAME", "CREAMY WASABI SAUCE", "EEL SAUCE"],
       "price": 15.0,
       "raw": true
     },
@@ -392,28 +424,28 @@
     {
       "id": 8,
       "name": "FIRECRACKER BURRITO",
-      "ingredients": ["SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SIRACHA SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SRIRACHA SAUCE"],
       "price": 14.0,
       "raw": true
     },
     {
       "id": 9,
       "name": "FFF BURRITO",
-      "ingredients": ["FLASH FRIED", "SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SIRACHA SAUCE"],
+      "ingredients": ["FLASH FRIED", "SEAWEED WRAP", "TUNA", "SUSHI RICE", "AVOCADO", "CRAB SALAD", "CREAM CHEESE", "CRUNCH", "SPICY MAYO SAUCE", "SRIRACHA SAUCE"],
       "price": 16.0,
       "raw": true
     },
     {
       "id": 10,
       "name": "CHICKEN BURRITO",
-      "ingredients": ["SEAWEED WRAP", "FRIED CHICKEN TENDER", "SUSHI RICE", "LETTUCE", "POTATO STICKS", "SPICY MAYO SAUCE", "EEL SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "FRIED CHICKEN TENDER", "CRAB SALAD", "SUSHI RICE", "LETTUCE", "POTATO STICKS", "SPICY MAYO SAUCE", "EEL SAUCE"],
       "price": 12.0,
       "raw": false
     },
     {
       "id": 11,
       "name": "SALMON CRUNCH BURRITO",
-      "ingredients": ["SEAWEED WRAP", "FRIED SALMON", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SIRACHA SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "FRIED SALMON", "SUSHI RICE", "LETTUCE", "CUCUMBER", "RED ONION", "CRAB SALAD", "CRUNCH", "CREAMY WASABI SAUCE", "EEL SAUCE", "SRIRACHA SAUCE"],
       "price": 12.0,
       "raw": false
     },
@@ -580,7 +612,7 @@
     {
       "id": 3,
       "name": "RAMUNE JAPANESE SODA",
-      "ingredients": ["ORIGINAL", "BLUE HAWAII", "STRAWBERRY", "MELON", "ORANGE"],
+      "ingredients": ["ORIGINAL", "STRAWBERRY", "MELON", "ORANGE"],
       "price": 3.5
     },
     {
@@ -675,7 +707,7 @@
         "id": 9,
         "name": "SCOFFLAW POG BASEMENT IPA",
         "ingredients": ["3 for $10"],
-        "price": 4
+        "price": 5
       }
     ],
     "sake": [
@@ -800,7 +832,7 @@
       "id": 5,
       "name": "CRAB SALAD",
       "ingredients": [],
-      "price": 4,
+      "price": 5,
       "raw": false
     },
     {
@@ -893,49 +925,69 @@
   "sauces": [
     {
       "id": 1,
-      "name": "SPICY MAYO (2OZ)",
+      "name": "SPICY MAYO (1.5 OZ)",
       "price": 0.5
     },
     {
       "id": 2,
-      "name": "YUM YUM (2OZ)",
+      "name": "YUM YUM (1.5 OZ)",
       "price": 0.5
     },
     {
       "id": 3,
-      "name": "EEL (2OZ)",
+      "name": "EEL (1.5 OZ)",
       "price": 0.5
     },
     {
       "id": 4,
-      "name": "CREAMY WASABI (2OZ)",
+      "name": "CREAMY WASABI (1.5 OZ)",
       "price": 0.5
     },
     {
       "id": 5,
-      "name": "POKE (2OZ)",
+      "name": "POKE (1.5 OZ)",
       "price": 0.5
     },
     {
       "id": 6,
+      "name": "SWEET CHILI (1.5 OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 7,
+      "name": "KARAAGE (1.5 OZ)",
+      "price": 0.5
+    },
+    {
+      "id": 8,
+      "name": "SRIRACHA (1.5 OZ)",
+      "price": 2
+    },
+    {
+      "id": 9,
+      "name": "KIMCHI (1.5 OZ)",
+      "price": 2
+    },
+    {
+      "id": 10,
       "name": "ZEN ORIGINAL SPICE",
       "price": 1,
       "spiceLevel": 1
     },
     {
-      "id": 7,
+      "id": 11,
       "name": "ZEN KAMIKAZE SPICE",
       "price": 2,
       "spiceLevel": 2
     },
     {
-      "id": 8,
+      "id": 12,
       "name": "ZEN ATOMIC SPICE",
       "price": 2,
       "spiceLevel": 3
     },
     {
-      "id": 9,
+      "id": 13,
       "name": "VAMPIRE",
       "price": 5,
       "spiceLevel": 4
