@@ -410,7 +410,7 @@
     {
       "id": 6,
       "name": "DANCING BURRITO",
-      "ingredients": ["SEAWEED WRAP", "TUNA", "FRIED SHRIMP TEMPURA", "SALMON", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "CRAB SALAD", "EDAMAME", "CREAMY WASABI SAUCE", "EEL SAUCE"],
+      "ingredients": ["SEAWEED WRAP", "TUNA", "FRIED SHRIMP TEMPURA", "SALMON", "SUSHI RICE", "LETTUCE", "AVOCADO", "CUCUMBER", "CREAM CHEESE", "EDAMAME", "CREAMY WASABI SAUCE", "EEL SAUCE"],
       "price": 15.0,
       "raw": true
     },
