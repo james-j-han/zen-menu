@@ -193,7 +193,7 @@
         "id": 1,
         "name": "VEGETARIAN",
         "ingredients": ["FRIED TOFU (1PC)", "RED ONION", "EDAMAME", "YELLOW NOODLE", "BAMBOO SHOOT", "EARWOOD MUSHROOM", "SPINACH", "RED GINGER PASTE", "HALF SEASONED EGG", "CREAMY MISO BROTH"],
-        "price": 13.5,
+        "price": 14,
         "raw": false,
         "spiceLevel": 0
       },
